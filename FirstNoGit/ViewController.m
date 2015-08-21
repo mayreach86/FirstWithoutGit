@@ -9,11 +9,10 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property NSArray *array;
+@property NSString* string;
 @end
 
 @implementation ViewController
-@synthesize array;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
